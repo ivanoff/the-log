@@ -2,6 +2,10 @@
 
 *The Log is dead. Long live the Log!*
 
+### Instalation
+
+`npm i -S the-log`
+
 ### Usage
 
 ```javascript
