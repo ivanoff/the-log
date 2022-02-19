@@ -16,4 +16,22 @@
       c.timeEnd(t, ...arr);
     },
   }
+
+  module.exports = {
+    silent: () => {
+      console = {
+        ...c,
+        log: () => {},
+        warn: () => {},
+        count: () => {},
+        group: () => {},
+        debug: () => {},
+        info: () => {},
+        error: () => {},
+        timeLog: () => {},
+        timeEnd: () => {},
+      }
+    }
+  }
+
 })(console);

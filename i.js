@@ -1,4 +1,4 @@
-require('./src');
+require('./src').silent();
 
 console.log('echo');
 const a = console.log('one two free');
