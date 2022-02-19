@@ -1,6 +1,6 @@
 {
   "name": "the-log",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "the-log",
   "author": "Dimitry Ivanov <2@ivanoff.org.ua> # curl -A cv ivanoff.org.ua",
   "license": "MIT",
@@ -9,5 +9,9 @@
     "log",
     "console.log",
     "timestamp"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivanoff/the-log.git"
+  }
 }
